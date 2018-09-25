@@ -1,0 +1,37 @@
+@media all and (max-device-width: 480px) 
+{
+    h1
+    {
+        padding: 25px 0px;
+        margin:0px 0px 0px 0px !important;
+    }
+    
+    h2
+    {
+        font-size: 2em;
+    }
+    
+    p
+    {
+        font-size: 1.2em;
+    }
+    
+    .selector
+    {
+        top: 53px;
+    }
+    
+    .champ-de-bataille
+    {
+        min-height: 250px;
+        background-color: rgba(1,1,1,0.3);
+    }
+
+    .fight-button, .reset-button, .start-button
+    {
+        font-size: 1.3em;
+        width: 200px;
+        padding: 20px 20px;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,166 @@
+body
+{
+    background-image: url("../images/arene_combat.jpg");
+    background-size: 2024px;
+    background-repeat: no-repeat;
+    background-position: top 5px center;
+	background-attachment: fixed;
+    font-family: tahoma;
+    background-color: black;
+    min-width: 540px;
+    margin:0;
+    padding:0;
+}
+
+/*------Character Selector --------*/
+
+.selector
+{
+    position: relative;
+    top: -30px;
+	padding: 40px; 
+	max-width: 550px; 
+	margin: auto;
+    background-color: rgba(1,1,1,0.4);
+    box-shadow: 1px 1px 2px rgba(1,1,1,0.7);
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.selector p
+{
+    margin:20px 0px;
+}
+
+.personnage-group
+{
+	display: flex;
+	max-width: 530px;
+    margin: auto;
+	justify-content: space-between;
+}
+
+.personnage-select
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    width:100px;
+}
+
+.personnage-select img
+{
+	max-height: 150px;
+	width: auto;
+    margin-bottom: 10px;
+}
+
+/*------Battlefield --------*/
+
+.champ-de-bataille, .tours-de-bataille
+{
+	padding: 30px; 
+    color: white;
+    margin: auto;
+}
+
+.champ-de-bataille
+{
+    background-color: rgba(1,1,1,0.4);
+    box-shadow: 1px 1px 2px rgba(1,1,1,0.9);
+    text-align: center;
+    min-height: 170px;
+    max-width: 850px;
+    border-radius: 7px;
+}
+
+.personnage-versus
+{
+	display:flex; 
+	justify-content:space-between;
+	max-width:800px; 
+	margin:auto;
+    padding:30px 15px 15px 15px;
+}
+
+.avatar-pv
+{
+	display: block;
+	width: 300px;
+	margin:auto;
+	text-align: center;
+    font-weight: 600;
+	color: red;
+}
+
+/*------Buttons --------*/
+
+.fight-button, .reset-button, .start-button
+{
+	display: block;
+	width: 150px;
+	padding: 10px 20px;
+	text-align: center;
+	margin:auto;
+	color: white;
+    box-shadow: 1px 1px 2px rgba(1,1,1,0.7);
+    border-radius: 5px;
+}
+
+.fight-button, .start-button
+{
+	background-color: #4C6D8A;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.reset-button
+{
+	background-color: #669966;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+/*------Text --------*/
+
+h1
+{
+    text-align: center;
+    color:#E6813D;
+    font-size: 2.3em;
+    background-color: black;
+    box-shadow: 1px 1px 2px rgba(1,1,1,0.8);
+    padding: 20px 0px;
+    margin:0px 0px 100px 0px;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+p
+{
+    font-size: 0.9em;
+}
+
+.text-prev-tours
+{
+	color: orange;
+}
+
+.text-tours
+{
+	font-size:2em;
+    font-weight: 600;
+	color: red;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.text-versus
+{
+	font-size:3em;
+	color:green;
+}
